@@ -14,6 +14,10 @@ var postcss_import = require('postcss-import');
 gulp.task('styles', function(){
 	return gulp.src('./app/src/styles/styles.css')
 	   .pipe(postcss([postcss_import, postcss_nested, postcss_simple_vars, autoprefixer]))
+      	.on('error', function(errorInfo){
+			console.log(errorInfo.toString());
+			this.emit('end');
+		})
        .pipe(gulp.dest('./app/build/styles'));
 });
 
