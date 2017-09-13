@@ -565,8 +565,12 @@ img {
 		}
 
 .wrapper{
-	padding-left: 18px;
-	padding-right: 18px;
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
+.page-section{
+	padding: 4.5rem 0;
 }
 
 
