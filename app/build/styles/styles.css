@@ -567,6 +567,9 @@ img {
 .wrapper{
 	padding-left: 1rem;
 	padding-right: 1rem;
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .page-section{
