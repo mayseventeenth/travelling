@@ -576,4 +576,34 @@ img {
 	padding: 4.5rem 0;
 }
 
+.headline{
+	font-weight: 300;
+	font-size: 2.875rem;
+	color: #2f5572;
+
+}
+
+.headline--centered{
+		text-align: center;
+	}
+
+.headline--orange {
+		color: #d59541;
+	}
+
+.headline--small {
+		font-size: 1.875rem;
+		margin-bottom: 1.6em;
+	}
+
+.headline--narrow {
+		max-width: 31.25rem;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+.headline--light {
+		font-weight: 100;
+	}
+
 
